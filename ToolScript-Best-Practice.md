@@ -1,0 +1,9 @@
+AACS is not a real scripting language, but there are still best practices you should do in order make it easier to read, edit, and maintain. Following are a list of best practices you should consider doing:
+
+1. Use frames only when necessary. Frames are required when you want to execute a lot of instructions withing a single instruction. They are not meant for the main script. Use the Break instruction if you need the player's consent to continue.
+
+2. Don't overdo it with recursive calls. Sometimes it is required for a frame to call itself again. For example, when you leave the player with a choice, and the player can choose a "wrong option" which eventually goes back to said choice. While in general it is not considered bad practice to use recursive calls in AACS, it is best to minimize it.
+
+3. Split up your script file. The code editor's file browser allows you to easily switch between multiple script files. It's also possible to combine multiple script files by using ->[NUMBER]<- on top of a script file. You should do that for at least major part of your script. This allows easy editing for any part of your game without having to scroll through a large script file.
+
+4. Keep spaces between frame IDs. If you use frames for cross examinations, investigations, or other instructions, keep spaces between them. It is wise to reserve at least 10 IDs in advance. For example, your first cross examination uses 4 frames, with the IDs 10, 11, 12, and 13. Now, reserve IDs from 14 to 23. If you need to go back to edit this cross examination because you want to add statements or other sequences, you now have some IDs left that are close to the initial frames. This makes it easier to read and understand what a frame is used for. It is hard to maintain a script if you have a cross examinations with the frames, 10, 11, 12, 13, 27, 36, 55 and 24.
