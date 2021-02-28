@@ -36,7 +36,7 @@ As mentioned earlier, the different variable types have priorities. These priori
 |Undefined|String|X|X|X|
 
 #### Effects
->>
+>
 String→String: Both strings will be put together.  
 String→Number: The number will be considered as a string and both values are put together. The second's value will be appended to the first value.  
 String→Boolean: The boolean will be considered as a string and both values are put together. The second's values will be appended to the first value  
@@ -55,7 +55,7 @@ Boolean→Boolean: Both booleans will perform an AND operation, returning true i
 |Undefined|String|X|X|X|
 
 #### Effects
->>
+>
 String→String: Every occurence of the second value will be removed from the first value.  
 String→Number: The number will be considered as a string and every occurence of the second value will be removed from the first value.  
 String→Boolean: The boolean will be considered as a string and every occurence of the second value will be removed from the first value.  
@@ -75,7 +75,7 @@ Boolean/Boolean: Both booleans will perform an OR operation, returning true if e
 |Undefined|Boolean|X|X|X|
 
 #### Effects
->>
+>
 String→String: Returns true if the first value starts with the second value.  
 String→Number: The number will be considered a string. Returns true if the first value starts with the second value.  
 String→Boolean: The boolean will be considered as a string. Returns true if the first value starts with the second value.  
@@ -93,7 +93,7 @@ Boolean→Boolean: Both booleans will perform an XOR operation, returning true o
 |Undefined|Boolean|X|X|X|
 
 #### Effects
->>
+>
 String→String: Returns true if the first value ends with the second value.  
 String→Number: The number will be considered a string. Returns true if the first value ends with the second value.  
 String→Boolean: The boolean will be considered as a string. Returns true if the first value ends with the second value.  
@@ -110,7 +110,7 @@ Number→Number: The two numbers are divided.
 |Undefined|Boolean|X|X|X|
 
 #### Effects
->>
+>
 String→String: Compares the length of the two strings.  
 String→Number: The number will be considered a string. Compares the length of the two strings.  
 String→Boolean: The boolean will be considered as a string. Compares the length of the two strings.  
@@ -128,7 +128,7 @@ Boolean→Boolean: Checks if the first boolean is greater than 0.
 |Undefined|Boolean|X|X|Boolean|
 
 #### Effects
->>
+>
 String→String: Checks if the two strings are equal.  
 String→Number: The number will be considered a string. Checks if the two strings are equal.  
 String→Boolean: The boolean will be considered as a string. Checks if the two strings are equal.  
@@ -140,16 +140,16 @@ Undefined→Undefined: Checks if an undefined value is equal to an undefined val
 
 ## Expressions & Additional Information
 It is important to know that strings will always consider the second value as a string as well. This means that the string "40" **DOES** equal the number 40, for example.  
-But "80" is not greater than 40.
+But "80" is not greater than 40; They're both strings with 2 characters.
 
 **Expressions:**  
 The combinations mentioned above come into play when using expressions.  
 An expression is nothing but a chain of variable commands. An expression is either a single value/variable or multiple variables  
-with an operator between them. You can chain as many variables and operators together as need be.
+with an operator between them. You can chain as many variables and operators together as you need.
 
 A variable can be set with the following instruction
 ```
-Set #([VARNAME]) = [EXPRESSION];
+1: Set #([VARNAME]) = [EXPRESSION];
 ```
 Where [EXPRESSION] can be something like
 ```
