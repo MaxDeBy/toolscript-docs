@@ -144,8 +144,8 @@ But "80" is not greater than 40; They're both strings with 2 characters.
 
 **Expressions:**  
 The combinations mentioned above come into play when using expressions.  
-An expression is nothing but a chain of variable commands. An expression is either a single value/variable or multiple variables  
-with an operator between them. You can chain as many variables and operators together as you need.
+An expression is nothing but a chain of variable commands. An expression is either a single value/variable or multiple variables with an operator between them.  
+You can chain as many variables and operators together as you need.
 
 A variable can be set with the following instruction
 ```
