@@ -1,4 +1,4 @@
-1. Name: EndMoodMatrix (EndMM)
+1. Name: FinishMoodMatrix (FinMM)
 
 2. Description: Ends a Mood Matrix manually.
 

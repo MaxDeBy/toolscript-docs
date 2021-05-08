@@ -1,14 +1,21 @@
-1. Name: StopBackgroundAnimation (StopBackAnim)
+[Back to overview](index.md)
 
-2. Description: Stops the currently playing animation in the background.
+---
+# StopBackgroundAnimation
+---
+- Name: StopBackgroundAnimation (StopBackAnim)
+- Description: Stops the current background animation.
+- Parameters:  
+  None
 
-3. Parameters: None
-
-4. Examples:
-```json
-StopBackgroundAnimation;
-StopBackAnim;
+- Examples:
+```
+1:  StopBackgroundAnimation;
+2:  StopBackAnim;
 ```
 
-5. Remarks
+- Remarks
 >None
+
+---
+[Back to overview](index.md)

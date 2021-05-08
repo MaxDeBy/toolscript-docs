@@ -1,24 +1,26 @@
-1. Name: PlayBackgroundAnimation (PlayBackAnim)
+[Back to overview](index.md)
 
-2. Description: Plays an animation in the background.
+---
+# PlayBackgroundAnimation
+---
+- Name: PlayBackgroundAnimation (PlayBackAnim)
+- Description: Plays an animation in the background.
+- Parameters
+  - **Animation filename:**  
+    The filename of the animation, without the file ending.
 
-3. Parameters
-
-    a. Animation filename
-
-    The filename of the GIF animation, without the file ending.
-
-    b. Loop
-
+  - **Loop:**  
     A boolean value representing whether or not the animation should loop.
 
-4. Examples:
-```json
-PlayBackgroundAnimation:["CaseIntro"|false];
-PlayBackgroundAnimation:["Perceive"|true];
+- Examples:
+```
+1:  PlayBackgroundAnimation:["CaseIntro"|false];
+2:  PlayBackgroundAnimation:["Perceive"|true];
 ```
 
-5. Remarks
->The file for the specified animation has to be within the "Misc" folder which can be found under Assets>Images>Misc.
->
-The file must be a GIF animated file.
+- Remarks
+>The file for the specified animation has to be within the "Misc" folder which can be found under Assets>Images>Misc.  
+The file must be a GIF or animated PNG file.
+
+---
+[Back to overview](index.md)

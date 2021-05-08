@@ -1,4 +1,8 @@
+[Back to overview](index.md)
+
+---
 # Variables
+---
 Variables, like all instructions, have a set syntax. They have the following format: #([VARNAME]).  
 [VARNAME] can be any alphanumerical string (a-z, A-Z, 0-9).
 
@@ -160,3 +164,6 @@ Keep in mind that mathematics are very unlikely to be used in AACT and thus, the
 
 Like the branch instructions, this will be executed like a regular instruction, but it does not follow the regular syntax.  
 Be mindful of typos while creating expressions, as this can result in undefined values being returned unexpectedly.
+
+---
+[Back to overview](index.md)

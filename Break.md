@@ -1,16 +1,20 @@
-1. 
-Name: Break
+[Back to overview](index.md)
 
+---
+# Break
+---
+- Name: Break
+- Description: Pauses the script and waits until the player clicked on the progress button.
+- Parameters:  
+    None
 
-2. 
-Description: Pauses the script and waits until the player clicked on the progress button.
-3. Parameters: None
-
-4. Example:
-
-```json
-Break;
+- Example:
+```
+1:  Break;
 ```
 
-5. Remarks:
-None
+- Remarks:
+>None
+
+---
+[Back to overview](index.md)

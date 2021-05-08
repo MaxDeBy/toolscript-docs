@@ -1,14 +1,22 @@
-1. Name: FlashScene (Flash)
-2. Description: Flashes the screen white.
-3. Parameters:
-  
-    a. Duration
-    
+[Back to overview](index.md)
+
+---
+# FlashScene
+---
+- Name: FlashScene (Flash)
+- Description: Flashes the screen white.
+- Parameters:
+  - **Duration:**  
     Specifies how long the flash takes. Default is 200ms.
-4. Examples:
-```json
-FlashScene:[200];
-Flash:[100];
+
+- Examples:
 ```
-5. Remarks:
+1:  FlashScene:[200];
+2:  Flash:[100];
+```
+
+- Remarks:
 > None
+
+---
+[Back to overview](index.md)
