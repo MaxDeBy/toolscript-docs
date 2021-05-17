@@ -3,9 +3,9 @@
 ---
 # FadeOutCharacter
 ---
-- Name: FadeOutCharacter (FoutChar)
-- Description: Fades out the character of the screen.
-- Parameters:
+- **Name:** FadeOutCharacter (FoutChar)
+- **Description:** Fades out the character of the screen.
+- **Parameters:**
   - **Delay:**  
     The amount of miliseconds it takes to fade out the character.
   - **Character position (optional):**  

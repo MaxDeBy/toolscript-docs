@@ -3,9 +3,9 @@
 ---
 # LoadScene
 ---
-- Name: LoadScene (LS)
-- Description: The LoadScene instruction updates the background AND the character. It also removes a popup if the background changes.
-- Parameters:
+- **Name:** LoadScene (LS)
+- **Description:** The LoadScene instruction updates the background AND the character. It also removes a popup if the background changes.
+- **Parameters:**
   - **Stagename:**  
     The name of the background that you want to display. This can be either the actual name you entered in the tool UI or the ID of the background.
     You can pass an empty argument by using a null character (-) to not change the background. But this will also not remove a popup if one is displayed.

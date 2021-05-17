@@ -3,9 +3,9 @@
 ---
 # ChangeTextBox
 ---
-- Name: ChangeTextBox (CTB)
-- Description: Changes what custom textbox should be used.
-- Parameters:  
+- **Name:** ChangeTextBox (CTB)
+- **Description:** Changes what custom textbox should be used.
+- **Parameters:** 
   - **Name:**      
     The name of the image (without file extension) of the textbox.
 

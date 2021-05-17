@@ -1,41 +1,28 @@
-1. Name: DisplayPopup (DP)
+[Back to overview](index.md)
 
-
-
-2. Description: This instruction displays a popup image.
-
-
-3. Parameters:
-
-
-a. 
-Popup name
-The name of the popup that should be displayed.
-
-
-b. 
-Looping (optional)
-A boolean value determining if the popup should loop or not.
+---
+# DisplayPopup
+---
+- **Name:** DisplayPopup (DP)
+- **Description:** This instruction displays a popup image.
+- **Parameters:**
+  - **Popup name:**  
+    The name of the popup that should be displayed.
+  - **Looping (optional):**  
+    A boolean value determining if the popup should loop or not.
  
-
-4. Examples:
-```json
-DisplayPopup:["HoldIt"];
-
-DP:["Objection"];
-
-DisplayPopup:["Testimony"|true];
-
-DP:["TakeThat"|false];
+- Examples:
+```
+1:  DisplayPopup:["HoldIt"];
+2:  DP:["Objection"];
+3:  DisplayPopup:["Testimony"|true];
+4:  DP:["TakeThat"|false];
 ```
 
- 
+- Remarks:
+>
+The popup will not vanish until the background changed.  
+If you don't want the popup to loop, you can omit the last parameter.
 
-
-
-5. 
-Remarks:
-
-> The popup will not vanish until the background changed.
-> 
-> If you don't want the popup to loop, you can omit the last parameter.
+---
+[Back to overview](index.md)

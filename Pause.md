@@ -3,9 +3,9 @@
 ---
 # Pause
 ---
-- Name: Pause
-- Description: Tells the engine to wait a certain amount of time before executing the next line in the script.
-- Parameters:
+- **Name:** Pause
+- **Description:** Tells the engine to wait a certain amount of time before executing the next line in the script.
+- **Parameters:**
   - **Delay**:  
     The amount of miliseconds the engine should wait before continuing.
 

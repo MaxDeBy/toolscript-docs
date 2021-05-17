@@ -3,10 +3,9 @@
 ---
 # StopBackgroundAnimation
 ---
-- Name: StopBackgroundAnimation (StopBackAnim)
-- Description: Stops the current background animation.
-- Parameters:  
-  None
+- **Name:** StopBackgroundAnimation (StopBackAnim)
+- **Description:** Stops the current background animation.
+- **Parameters:** None
 
 - Examples:
 ```

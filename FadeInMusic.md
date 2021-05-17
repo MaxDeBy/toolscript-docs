@@ -1,33 +1,22 @@
-1. 
-Name: FadeInMusic (FinM)
+[Back to overview](index.md)
 
-
-2. 
-Description: Fades out the currently playing music.
-
-
-3. 
-Parameters:
-
-
-a. 
-Delay
+---
+# FadeInMusic
+---
+- **Name:** FadeInMusic (FinM)
+- **Description:** Fades out the currently playing music.
+- **Parameters:**
+- **Delay:**  
      The amount of miliseconds it takes to fade out the scene.
 
-
-4. 
-Examples:
-```json
-FadeInMusic:[1000];
-
-FinM:[-];
+- Examples:
+```
+1:  FadeInMusic:[1000];
+2:  FinM:[-];
 ```
 
- 
-
-
-
-5. 
-Remarks:
-
+- Remarks:
 > If you pass an empty parameter as delay, it will default to one second (1000 miliseconds).
+
+---
+[Back to overview](index.md)

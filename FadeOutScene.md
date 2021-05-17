@@ -3,9 +3,9 @@
 ---
 # FadeOutScene
 ---
-- Name: FadeOutScene (FoutScene)
-- Description: Fades the screen (meaning, character, foreground AND background) to black.
-- Parameters:
+- **Name:** FadeOutScene (FoutScene)
+- **Description:** Fades the screen (meaning, character, foreground AND background) to black.
+- **Parameters:**
   - **Delay:**  
     The amount of miliseconds it takes to fade out the scene.
 

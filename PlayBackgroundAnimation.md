@@ -3,9 +3,9 @@
 ---
 # PlayBackgroundAnimation
 ---
-- Name: PlayBackgroundAnimation (PlayBackAnim)
-- Description: Plays an animation in the background.
-- Parameters
+- **Name:** PlayBackgroundAnimation (PlayBackAnim)
+- **Description:** Plays an animation in the background.
+- **Parameters:**
   - **Animation filename:**  
     The filename of the animation, without the file ending.
 

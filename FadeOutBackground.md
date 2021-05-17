@@ -3,9 +3,9 @@
 ---
 # FadeOutBackground
 ---
-- Name: FadeOutBackground (FoutBg)
-- Description: Fades out the background of the screen.
-- Parameters:
+- **Name:** FadeOutBackground (FoutBg)
+- **Description:** Fades out the background of the screen.
+- **Parameters:**
   - **Delay**:  
     The amount of miliseconds it takes to fade out the background.
 

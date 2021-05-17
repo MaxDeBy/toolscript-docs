@@ -3,9 +3,9 @@
 ---
 # FadeInCharacter 
 ---
-- Name: FadeInCharacter (FinChar)
-- Description: Fades in the character of the screen.
-- Parameters:
+- **Name:** FadeInCharacter (FinChar)
+- **Description:** Fades in the character of the screen.
+- **Parameters:**
   - **Delay:**  
     The amount of miliseconds it takes to fade in the character.
   - **Character position (optional):**  

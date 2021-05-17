@@ -3,9 +3,9 @@
 ---
 # FadeInForeground
 ---
-- Name: FadeInForeground (FinFront)
-- Description: Fades in the foreground of the screen.
-- Parameters:
+- **Name:** FadeInForeground (FinFront)
+- **Description:** Fades in the foreground of the screen.
+- **Parameters:**
   - **Delay:**  
     The amount of miliseconds it takes to fade in the foreground.
 

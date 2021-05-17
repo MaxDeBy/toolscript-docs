@@ -3,9 +3,9 @@
 ---
 # RemoveCharacter
 ---
-- Name: RemoveCharacter (Snap)
-- Description: Removes a character from the screen.
-- Parameters
+- **Name:** RemoveCharacter (Snap)
+- **Description:** Removes a character from the screen.
+- **Parameters:**
   - **Character Position:**  
     The position of the character that is supposed to be removed.
 

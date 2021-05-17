@@ -1,35 +1,24 @@
-1. 
-Name: FadeOutMusic (FoutM)
+[Back to overview](index.md)
 
-
-2. 
-Description: Fades out the currently playing music.
-
-
-3. 
-Parameters:
-
-
-a. 
-Delay
+---
+# FadeOutMusic
+---
+- **Name:** FadeOutMusic (FoutM)
+- **Description:** Fades out the currently playing music.
+- **Parameters:**
+  - **Delay:**  
      The amount of miliseconds it takes to fade out the scene.
 
-
-4. 
-Examples:
-```json
-FadeOutMusic:[1000];
-
-FoutM:[-];
+- Examples:
+```
+1:  FadeOutMusic:[1000];
+2:  FoutM:[-];
 ```
 
- 
-
-
-
-5. 
-Remarks:
-
-> If you pass an empty parameter as delay, it will default to one second (1000 miliseconds).
+- Remarks:
 > 
-> After the music has faded out, it has not stopped. It is still "playing", just not audibly.
+If you pass an empty parameter as delay, it will default to one second (1000 miliseconds).  
+After the music has faded out, it has not stopped. It is still "playing", just not audibly.
+
+---
+[Back to overview](index.md)

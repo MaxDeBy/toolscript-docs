@@ -1,10 +1,20 @@
-1. Name: HideEvidence (HE)
-2. Description: This instruction hides the evidence icon in the top left corner.
-3. Parameters: None
-4. Examples:
-```json
-HideEvidence;
-HE;
+[Back to overview](index.md)
+
+---
+# HideEvidence
+---
+- **Name:** HideEvidence (HE)
+- **Description:** This instruction hides the evidence thumbnail in the top left corner.
+- **Parameters:** None
+
+- Examples:
 ```
-5. Remarks:
+1:  HideEvidence;
+2:  HE;
+```
+
+- Remarks:
 > None
+
+---
+[Back to overview](index.md)

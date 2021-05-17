@@ -3,10 +3,10 @@
 ---
 # FadeInBackground
 ---
-- Name: FadeInBackground (FinBg)
-- Description: Fades in the background of the screen.
-- Parameters:
-  - Delay
+- **Name:** FadeInBackground (FinBg)
+- **Description:** Fades in the background of the screen.
+- **Parameters:**
+  - **Delay:**  
     The amount of miliseconds it takes to fade in the background.
 
 - Examples:

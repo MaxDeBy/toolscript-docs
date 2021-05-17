@@ -3,9 +3,9 @@
 ---
 # FlashScene
 ---
-- Name: FlashScene (Flash)
-- Description: Flashes the screen white.
-- Parameters:
+- **Name:** FlashScene (Flash)
+- **Description:** Flashes the screen white.
+- **Parameters:**
   - **Duration:**  
     Specifies how long the flash takes. Default is 200ms.
 

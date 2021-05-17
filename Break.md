@@ -3,10 +3,9 @@
 ---
 # Break
 ---
-- Name: Break
-- Description: Pauses the script and waits until the player clicked on the progress button.
-- Parameters:  
-    None
+- **Name:** Break
+- **Description:** Pauses the script and waits until the player clicked on the progress button.
+- **Parameters:** None
 
 - Example:
 ```
@@ -14,7 +13,7 @@
 ```
 
 - Remarks:
->None
+> None
 
 ---
 [Back to overview](index.md)

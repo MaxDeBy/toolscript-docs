@@ -3,9 +3,9 @@
 ---
 # FadeInScene 
 ---
-- Name: FadeInScene  (FinScene)
-- Description: Fades the screen (meaning, character, foreground AND background) back in.
-- Parameters:
+- **Name:** FadeInScene  (FinScene)
+- **Description:** Fades the screen (meaning, character, foreground AND background) back in.
+- **Parameters:**
   - **Delay:**  
     The amount of miliseconds it takes to fade in the scene.
 

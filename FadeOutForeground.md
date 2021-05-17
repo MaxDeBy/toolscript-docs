@@ -3,9 +3,9 @@
 ---
 # FadeOutForeground
 ---
-- Name: FadeOutForeground (FoutFront)
-- Description: Fades out the foreground of the screen.
-- Parameters:
+- **Name:** FadeOutForeground (FoutFront)
+- **Description:** Fades out the foreground of the screen.
+- **Parameters:**
   - **Delay:**  
     The amount of miliseconds it takes to fade out the foreground.
 

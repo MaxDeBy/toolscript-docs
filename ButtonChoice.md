@@ -3,9 +3,9 @@
 ---
 # ButtonChoice
 ---
-- ButtonChoice (BC)
-- Description: Displays up to four buttons on the bottom screen and waits until the player has clicked one.
-- Parameters:
+- **Name:** ButtonChoice (BC)
+- **Description:** Displays up to four buttons on the bottom screen and waits until the player has clicked one.
+- **Parameters:**
   - **Choice(s)**:  
     You can pass up to 4 choices as strings which will determine the text on the buttons. If you want less than four choices, you can use the null character (-) to leave out a choice.
   - **Frame ID(s)**:  

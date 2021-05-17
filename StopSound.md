@@ -1,31 +1,21 @@
-1. 
-Name: StopSound
+[Back to overview](index.md)
 
+---
+# StopSound
+---
+- **Name:** StopSound
+- **Description:** Stops a sound effect or ends a sound loop.
+- **Parameters:**
+  - **Sound name:**  
+    The name of the sound effect to be stopped.
 
-2. 
-Description: Stops a sound effect or ends a sound loop.
-
-
-3. 
-Parameters: 
-
-
-a. 
-Sound name
-The name of the sound effect to be stopped.
-
-
-4. 
-Examples:
-```json
-StopSound["SFX"];
+- Examples:
+```
+1: StopSound["SFX"];
 ```
 
- 
+- Remarks:
+> None
 
-
-
-5. 
-Remarks:
-
-None
+---
+[Back to overview](index.md)
