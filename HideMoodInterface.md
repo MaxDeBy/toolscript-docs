@@ -1,14 +1,21 @@
-1. Name: HideMoodInterface (HMI)
+[Back to overview](index.md)
 
-2. Description: Hides the GUI of the Mood Matrix sequence, but does not end it.
+---
+# HideMoodInterface
+---
+- **Name:** HideMoodInterface (HMI)
+- **Description:** Hides the GUI of the Mood Matrix sequence, but does not end it.
+- **Parameters:**  
+    None
 
-3. Parameters: None
-
-4. Examples:
-```json
-HideMoodInterface;
-HMI;
+- Examples:
+```
+1:  HideMoodInterface;
+2:  HMI;
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)

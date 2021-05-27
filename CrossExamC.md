@@ -15,7 +15,9 @@ Every other number means a contradiction has to be found. If you want to combine
 
 That will take care of the press condition. And to end it by objecting, execute the newly added FinishCrossExam Instruction in a frame that gets executed through the PickEvidence Instruction mentioned below.
  
-A Cross Examination, just like Frames, is a Container Instructions, meaning they can host multiple Instructions inside. Other than Frames, however, you are limited to what kind of Instructions you can add to the CEs body.  
+A Cross Examination, just like Frames, is a Container Instructions, meaning they can host multiple Instructions inside. Other than Frames, however, you are limited to what kind of Instructions you can add to the CEs body.
+
+## Statements
 In a Cross Examination, you only can use Statement Instructions. Statement Instructions are also Container Instructions, hence they use the Container brackets "<" and ">".
 But they are also limited. But rather than the kinds they are limited to, Statement Instructions are limited by number. They only allow two plus one optional Regular Instruction. Any more or any less will fail to load the script. 
 
@@ -26,7 +28,6 @@ A statement Instruction is built like this:
 ```
 
 > Statement Instructions do NOT end with a semicolon.
-
  
 **NUM** is the number of the statement Instruction. It always starts with "1". The upper limit is 10. So you can have a maximum of 10 statements per CE.
 
@@ -38,6 +39,7 @@ Instruction 3 is optional. But if you use it, it **has** to be a [PickEvidence](
 
 > Attention: Currently there can only be one statement marked as "contradiction". If you add the PickEvidence to multiple statements, only the first one will be considered.
 
+## Special Statements
 Then there are two other Statement Instructions. They don't actually have anything to do with a statement, however.
 These are called SCO and SEV and each of them only allows a single Regular Instruction, which, again, should be a [PlayFrame](PlayFrame.md) Instruction.
 The SCO will be executed after the last statement has been displayed. You should use  it for discussions with the counsel like in the games which usually gives a vague hint on where to look for.

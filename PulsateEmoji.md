@@ -1,21 +1,24 @@
-1. Name: PulsateEmoji
+[Back to overview](index.md)
 
-2. Description: Makes an emoji pulsate.
-
-3. Parameters
-
-    a. Emoji
-    
+---
+# PulsateEmoji
+---
+- **Name:** PulsateEmoji (Pulsate)
+- **Description:** Makes an emoji pulsate.
+- **Parameters:**
+  - **Emoji:**  
     The emoji that should pulsate. Valid values are Happy, Angry, Sad or Surprised
-    
-    b. Mode
-    
-    The mode of the pulsation. The mode determines the intensity of the pulsation. There are 5 different modes: 0, 1, 2, 3 and 4. Mode 0 stops the pulsation.
-4. Examples:
-```json
-PulsateEmoji:["Happy"|4];
-Pulsate:["Sad"|0];
+  - **Width:**  
+    The width of the pulsation. This parameter specifies the diameter of the pulsation. A width of 0 stops the pulse.
+
+- Examples:
+```
+1:  PulsateEmoji:["Happy"|20];
+2:  Pulsate:["Sad"|0];
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)

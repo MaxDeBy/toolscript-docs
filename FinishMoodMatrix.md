@@ -1,14 +1,21 @@
-1. Name: FinishMoodMatrix (FinMM)
+[Back to overview](index.md)
 
-2. Description: Ends a Mood Matrix manually.
+---
+# FinishMoodMatrix
+---
+- **Name:** FinishMoodMatrix (FinMM)
+- **Description:** Ends a Mood Matrix manually.
+- **Parameters:**  
+    None
 
-3. Parameters: None
-
-4. Examples:
-```json
-EndMoodMatrix;
-EndMM;
+- Examples:
+```
+1:  EndMoodMatrix;
+2:  EndMM;
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)

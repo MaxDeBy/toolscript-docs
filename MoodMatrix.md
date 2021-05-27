@@ -1,18 +1,22 @@
-1. Name: PlayMoodMatrix (PlayMM)
+[Back to overview](index.md)
 
-2. Description: Starts a mood matrix sequence.
-
-3. Parameters
-
-    a. Mood Matrix ID
-
+---
+# PlayMoodMatrix
+---
+- **Name:** PlayMoodMatrix (PlayMM)
+- **Description:** Starts a mood matrix sequence.
+- **Parameters:**
+  - **Mood Matrix ID:**  
     The Id of the Mood Matrix sequence to be played
 
-4. Examples:
-```json
-PlayMoodMatrix:["AngryMaya"];
-PlayMM:[2];
+- Examples:
+```
+1:  PlayMoodMatrix:["AngryMaya"];
+2:  PlayMM:[2];
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)

@@ -51,7 +51,7 @@ Bellow you will find a list of all instructions but it's recommended that you re
   - [HideMoodStatement](HideMoodStatement.md)
   - [HideMoodInterface](HideMoodInterface.md)
   - [RevealMoodStatement](RevealMoodStatement.md)
-  - [RevealMoodInterface](RevealMoodInterface.md)
+  - [ShowMoodInterface](ShowMoodInterface.md)
   - [PulsateEmoji](PulsateEmoji.md)
   - [ShowNoise](ShowNoise.md)
   - [End](FinishMoodMatrix.md)
