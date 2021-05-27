@@ -1,3 +1,5 @@
+![](Images/Banner.png)
+
 Welcome to the documentation of the Ace Attorney Casing Tool Script, or AACS, or ToolScript, or "the code" as some even may call it. 
 Either way, AACS isn't overly complicated but it's good to read up on the basic idea first. Plus, you don't wanna have to remember every single instruction, so use this as a reference.  
 
