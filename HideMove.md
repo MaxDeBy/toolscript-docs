@@ -1,20 +1,23 @@
-1. Name: HideMove
+[Back to overview](index.md)
 
-2. Description: Hides a move option in an investigation.
-
-3. Parameters
-
-    a. Investigation ID
-    
+---
+# HideMove
+---
+- **Name:** HideMove
+- **Description:** Hides a move option in an investigation.
+- **Parameters:**
+  - **Investigation ID:**  
     The ID of the investigation containing the move option.
-    
-    b. Index of the move option
-    
+  - **Index of the move option:**  
     The 1-based index of the move option.
-4. Examples:
-```json
-HideMove:[0,1];
+
+- Examples:
+```
+1: HideMove:[0|1];
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)

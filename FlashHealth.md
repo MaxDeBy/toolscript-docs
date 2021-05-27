@@ -1,14 +1,22 @@
-1. Name: FlashHealth (FH)
-2. Description: Makes a portion of the healthbar flash in a yellow color.
-3. Paramters
-  
-    a. Amount
-  
+[Back to overview](index.md)
+
+---
+# FlashHealth
+---
+- **Name:** FlashHealth (FH)
+- **Description:** Makes a portion of the healthbar flash in a yellow color.
+- **Paramters:**
+  - **Amount:**
     Just like the damage or heal instructions, this one also requires a number as a value. This will determine how much of the healthbar will flash.
-4. Examples:
-```json
-FlashHealth:[30];
-FH:[50];
+
+- Examples:
 ```
-5. Remarks:
+1:  FlashHealth:[30];
+2:  FH:[50];
+```
+
+- Remarks:
 > The flash animation automatically stops when healing, damaging, displaying, or hiding the health bar.
+
+---
+[Back to overview](index.md)

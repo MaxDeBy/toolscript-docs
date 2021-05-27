@@ -1,42 +1,25 @@
-1. 
-Name: MakeTaskList
+[Back to overview](index.md)
 
-
-2. 
-Description: Creates a "task" list with a specified amount of tasks.
-
-
-3. 
-Parameters:
-
-
-a. 
-ID
-     The ID of the tasklist.
-
-
-b. 
-Task amount
-     The amount of tasks that are inside the tasklist.
-
-
-c. 
-Completion ID
-     The ID of the frame that should be played when all tasks are completed.
+---
+# MakeTaskList
+---
+- **Name:** MakeTaskList
+- **Description:** Creates a list with a specified amount of tasks.
+- **Parameters:**
+  - **ID:**  
+    The ID of the tasklist.
+  - **Task amount:**  
+    The amount of tasks that are inside the tasklist.
+  - **Completion ID:**  
+    The ID of the frame that should be played when all tasks are completed.
  
-
-
-4. 
-Examples:
-```json
-MakeTaskList:[0|5|3];
+- Examples:
+```
+1:  MakeTaskList:[0|5|3];
 ```
 
- 
+- Remarks:
+> None
 
-
-
-5. 
-Remarks:
-
-None
+---
+[Back to overview](index.md)

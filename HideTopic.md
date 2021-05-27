@@ -1,20 +1,23 @@
-1. Name: HideTopic
+[Back to overview](index.md)
 
-2. Description: Hides a talking topic in an investigation.
-
-3. Parameters
-
-    a. Investigation ID
-    
+---
+# HideTopic
+---
+- **Name:** HideTopic
+- **Description:** Hides a talking topic in an investigation.
+- **Parameters**
+  - **Investigation ID:**  
     The ID of the investigation containing the talking topic.
-    
-    b. Index of the move option
-    
-    The 1-based index of the talking topic.
-4. Examples:
-```json
-HideTopic:[0,1];
+  - **Index of the topic:**  
+    The 1-based index of the topic.
+
+- Examples:
+```
+1:  HideTopic:[0|1];
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)
