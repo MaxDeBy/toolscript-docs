@@ -1,31 +1,30 @@
-1. Name: Topic
+[Back to overview](index.md)
 
-2. Description: Talking instructions are the topics you can talk about with a character. They are built like the following scheme:
-```json
-Topic:{DISPLAY TEXT|FIRST INSTRUCTION|SECOND INSTRUCTION|HIDDEN};
+---
+# Topic
+---
+- **Name:** Topic
+- **Description:** Talking instructions are the topics you can talk about with a character. They are built like the following scheme:
 ```
-
-3. Parameters
-
-    a. Display Text
-    
+1:  Topic:{DISPLAY TEXT|FIRST INSTRUCTION|SECOND INSTRUCTION|HIDDEN};
+```
+- **Parameters:**
+  - **Display Text:**  
     The text that appears in the button of that topic.
-    
-    b. First Instruction
-    
+  - **First Instruction:**  
     The regular instruction that is executed the first time the player chooses that topic.
-
-    c. Second Instruction
-
+  - **Second Instruction:**  
     The regular instruction that is executed every additional time the player chooses that topic.
-
-    d. Hidden
-    
+  - **Hidden:**  
     Determines whether the topic is hidden by default.
 
+- Examples:
+```
+1:  Topic:{"Your Alibi"|PlayFrame:["LarryAlibi1"]|PlayFrame:["LarryAlibi2"]|false};
+```
 
-4. Examples:
->None
+- Remarks
+> You can define as many topics per investigation sequence as you like; however, due to the limited space, only the first 5 topics that aren't hidden will be displayed.
 
-5. Remarks
->You can define as many topics per investigation sequence as you like; however, due to the limited space, only the first 5 topics that aren't hidden will be displayed.
+---
+[Back to overview](index.md)

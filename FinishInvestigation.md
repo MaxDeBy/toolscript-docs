@@ -1,35 +1,22 @@
-1. 
-Name: FinishInvestigation (FinINV)
+[Back to overview](index.md)
 
-
-2. 
-Description: Finishes an investigation
-
-
-3. 
-Parameters:
-
-
-a. 
-Investigation ID
-     The ID of the investigation that should be finished.
+---
+# FinishInvestigation
+---
+- **Name:** FinishInvestigation (FinINV)
+- **Description:** Finishes an investigation
+- **Parameters:**
+  - **Investigation ID:**  
+    The ID of the investigation that should be finished.
  
-
-
-
-4. 
-Examples:
-```json
-FinishInvestigation:["FinalInvestigation"];
-
-FinINV:[1];
+- Examples:
+```
+1:  FinishInvestigation:["FinalInvestigation"];
+2:  FinINV:[1];
 ```
 
- 
+- Remarks:
+> None
 
-
-
-5. 
-Remarks:
-
-> Use this as described in the Investigations chapter.
+---
+[Back to overview](index.md)

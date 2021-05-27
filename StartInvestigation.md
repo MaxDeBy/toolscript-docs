@@ -1,16 +1,21 @@
-1. Name: StartInvestigation
+[Back to overview](index.md)
 
-2. Description: Starts a new investigation and waits until every investigation is finished.
-
-3. Parameters
-
-    a. Investigation ID
-    
+---
+# StartInvestigation
+---
+- **Name:** StartInvestigation
+- **Description:** Starts a new investigation and waits until every investigation is finished.
+- **Parameters:**
+  - **Investigation ID:**  
     The ID of the first investigation to play.
-4. Examples:
-```json
-StartInvestigation:[0];
+
+- Examples:
+```
+1:  StartInvestigation:[0];
 ```
 
-5. Remarks
->None
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)

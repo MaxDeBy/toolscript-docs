@@ -1,10 +1,20 @@
-1. Name: FinishAllInvestigation
-2. Description: Sets all investigations to finished.
-3.  Parameters: 
-None   
-4. Examples:
-```json
-FinishAllInvestigation;     
+[Back to overview](index.md)
+
+---
+# FinishAllInvestigation
+---
+- **Name:** FinishAllInvestigation
+- **Description:** Sets all investigations to finished.
+- **Parameters:**  
+    None
+
+- Examples:
 ```
-5. Remarks:
->None
+1:  FinishAllInvestigation;     
+```
+
+- Remarks:
+> None
+
+---
+[Back to overview](index.md)
