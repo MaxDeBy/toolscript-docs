@@ -23,6 +23,7 @@ Bellow you will find a list of all instructions but it's recommended that you re
 
 ### Visuals
 - [ChangeTextBox](ChangeTextBox.md)
+- [PrepareBackgroundAnimation](PrepareBackgroundAnimation.md)
 - [PlayBackgroundAnimation](PlayBackgroundAnimation.md)
 - [StopBackgroundAnimation](StopBackgroundAnimation.md)
 - [LoadScene](LoadScene.md)
@@ -70,6 +71,12 @@ Bellow you will find a list of all instructions but it's recommended that you re
 - [HideEvidence](HideEvidence.md)
 - [PsycheHideHealth](PsycheHideHealth.md)
 - [HideHealth](HideHealth.md)
+- [HideRecord](HideRecord.md)
+- [HideProfile](HideProfile.md)
+
+### Reveal
+- [RevealRecord](RevealRecord.md)
+- [RevealProfile](RevealProfile.md)
   
 ### Chapters
 - [LockChapter](LockChapter.md)

@@ -6,7 +6,7 @@
 Variables, like all instructions, have a set syntax. They have the following format: #([VARNAME]).  
 [VARNAME] can be any alphanumerical string (a-z, A-Z, 0-9).
 
-Variables can have 4 different types: **String**, **Boolean**, **Number**,and **Undefined**. Keep in mind, variables are not strong typed. This means that the type can change at any time. The type is set implicit depending on the value it receives.
+Variables can have 4 different types: **String**, **Boolean**, **Number**, and **Undefined**. Keep in mind, variables are not strong typed. This means that the type can change at any time. The type is set implicit depending on the value it receives.
 
 ## Quick Overview:
 

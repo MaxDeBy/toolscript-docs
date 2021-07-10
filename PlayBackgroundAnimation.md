@@ -4,23 +4,19 @@
 # PlayBackgroundAnimation
 ---
 - **Name:** PlayBackgroundAnimation (PlayBackAnim)
-- **Description:** Plays an animation in the background.
-- **Parameters:**
-  - **Animation filename:**  
-    The filename of the animation, without the file ending.
+- **Description:** Starts the currently prepared animated background. Does nothing if no animation was prepared.
+- **Parameters:** None
 
-  - **Loop:**  
-    A boolean value representing whether or not the animation should loop.
-
-- Examples:
+- Example:
 ```
-1:  PlayBackgroundAnimation:["CaseIntro"|false];
-2:  PlayBackgroundAnimation:["Perceive"|true];
+1:  PlayBackgroundAnimation;
 ```
 
 - Remarks
->The file for the specified animation has to be within the "Misc" folder which can be found under Assets>Images>Misc.  
-The file must be a GIF or animated PNG file.
+> For this Instruction to work, you need to execute [PrepareBackgroundAnimation](PrepareBackgroundAnimation.md) first.  
+>
+> If called while the animation has not been fully loaded yet, the game won't freeze but this instruction will suspend it's execution asynchronously until the animation is ready to be rendered. 
+So make sure, to call [PrepareBackgroundAnimation](PrepareBackgroundAnimation.md) early enough.
 
 ---
 [Back to overview](index.md)
