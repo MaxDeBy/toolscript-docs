@@ -19,10 +19,15 @@
 ```
 1:  PickEvidence:["Coffee Mug"|1|3|8];
 2:  PE:["Florent"|2|3|9];
+3:  PickEvidence:[1];
+4:  PE:[2];
 ```
 
 - Remarks:
-> None
+> You can omit all but the 2nd parameter (as shown in example 3 and 4). If you do this, the player will be forced to pick a piece of evidence or a profile, like normal, but no frames will be executed. Instead, the result of the player's selection will be stored within 3 variables:
+> **Sys_SelectedRecord**: The reference name of the selected record.
+> **Sys_SelectedRecordDisplay**: The display name of the selected record.
+> **Sys_SelectedRecordIsEvidence**: Will be ```true``` if the selected record is evidence, ```false``` if it is a profile.
 
 ---
 [Back to overview](index.md)
