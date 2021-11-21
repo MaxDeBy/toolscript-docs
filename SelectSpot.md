@@ -1,30 +1,31 @@
 [Back to overview](index.md)
 
 ---
-# SelectSpot
+# Instruction Name (optional: Abbreviation)
 ---
-- **Name:** SelectSpot (Spot)
-- **Description:** Makes the player select a spot on the upper screen of the game window.
-- **Parameters:**
-  - **X coordinate:**  
-    The coordinate on the x axis where the cursor has to be.
-  - **Y coordinate:**  
-    The coordinate on the y axis where the cursor has to be.
-  - **Offset:**  
-    The amount of pixels the cursor is allowed to be off from the x and y coordinates.
-  - **Correct frame:**  
-    The ID of the frame that should be played when the correct spot is clicked.
-  - **Wrong frame:**  
-    The ID of the frame that should be played when the wrong spot is clicked.
- 
-- Examples:
+### Description
+General description of the instruction's purpose.
+
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|X Pos|String|The position on the x-axis.|✓|-|
+|Y Pos|Number|The position on the y-axis.|✓|-|
+|Offset|Boolean|The offset around the x and y positions.|✓|-|
+|Correct Frame|Boolean|The ID of the frame that should be played when the spot is clicked.|✓|-|
+|Wrong Frame|Boolean|The ID of the frame that should be played when the wrong spot is clicked.|✓|-|
+
+> Note: There will never be a parameter with the type `undefined`.
+
+### Examples:
+#### Example #1: Prompt the player to click a spot on (20,30) with an offset of 10 pixels. If the player clicks on that spot, frame '2' will be played. Otherwise frame '3' will be played.
 ```
 1:  SelectSpot:[20|30|10|2|3];
-2:  Spot:[20|30|10|2|3];
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

@@ -3,21 +3,24 @@
 ---
 # RevealStatement
 ---
-- **Name:** RevealStatement
-- **Description:** Reveals a statement from a cross examination.
-- **Parameters:**
-  - **Cross Examination ID:**  
-    The ID of the Cross Examination.
-  - **Statemend ID:**  
-    The ID of the statement. The ID is the index of the statement in a cross examination. The first statement has the index 0.
+### Description
+Reveals a statement of a cross examination.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|String|The ID of the cross examination.|✓|-|
+|Index|Number|The zero-based index of the statement.|✓|-|
+
+### Examples:
+#### Example #1: Reveal the 4th statement in the cross examination '1'.
 ```
 1:  RevealStatement:[1|3];
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

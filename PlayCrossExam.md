@@ -1,22 +1,25 @@
 [Back to overview](index.md)
 
 ---
-# PlayCrossExam
+# PlayCrossExam (CE)
 ---
-- **Name:** PlayCrossExam (CE)
-- **Description:** Starts a cross examination process.
-- **Parameters:**
-  - **Cross examination ID:**  
-    The ID of the cross examination you want to play.
+### Description
+Starts a cross examination sequence.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|String|The ID of the cross examination.|✓|-|
+
+### Examples:
+#### Example #1: Play the Cross-Examination 'BadBodyIsLying'.
 ```
 1:  PlayCrossExam:["BadBoyIsLying"];
-2:  CE:[4];
 ```
 
-- Remarks:
-> None
+### Remarks:
+Read more about [Cross-Examinations](CrossExamC.md).
 
 ---
 [Back to overview](index.md)

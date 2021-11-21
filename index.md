@@ -16,6 +16,8 @@ Bellow you will find a list of all instructions but it's recommended that you re
 - [Code Editor](AACS-Code-Editor.md)
 
 ## Instructions:
+[Document Structure](InstructionDocStructure.md)
+
 ### Flow
 - [Break](Break.md)
 - [ButtonChoice](ButtonChoice.md)
@@ -26,8 +28,11 @@ Bellow you will find a list of all instructions but it's recommended that you re
 - [PrepareBackgroundAnimation](PrepareBackgroundAnimation.md)
 - [PlayBackgroundAnimation](PlayBackgroundAnimation.md)
 - [StopBackgroundAnimation](StopBackgroundAnimation.md)
-- [LoadScene](LoadScene.md)
-- [RemoveCharacter](RemoveCharacter.md)
+- [LoadScene (Obsolete)](LoadScene.md)
+- [LoadLocation](LoadLocation.md)
+- [LoadCharacter](LoadCharacter.md)
+- [SetCharacter](SetCharacter.md)
+- [UnloadCharacter](UnloadCharacter.md)
 - [FadeOutForeground ](FadeOutForeground.md)
 - [FadeInForeground](FadeInForeground.md)
 - [FadeOutBackground](FadeOutBackground.md)
@@ -37,6 +42,10 @@ Bellow you will find a list of all instructions but it's recommended that you re
 - [FadeOutScene](FadeOutScene.md)
 - [FadeInScene](FadeInScene.md)
 - [FlashScene](FlashScene.md)
+
+### Camera
+- [PanCamera](PanCamera.md)
+- [Shake](Shake.md)
   
 ### Gameplay
 - Cross Examination ([Play](PlayCrossExam.md)) ([Container](CrossExamC.md))
@@ -103,12 +112,13 @@ Bellow you will find a list of all instructions but it's recommended that you re
 ### Psyche Lock
 - [PsycheLock](PsycheLock.md)
 - [BreakLock](BreakLock.md)
-- [PsycheDecreaseHealth](PsycheDamage.md)
-- [PsycheIncreaseHealth](PsycheHeal.md)
-- [PsycheFlashHealth](PsycheFlash.md)
+- [PsycheDamage](PsycheDamage.md)
+- [PsycheHeal](PsycheHeal.md)
+- [PsycheFlash](PsycheFlash.md)
 
 ### Court proceedings
 - [DecreaseHealth](DecreaseHealth.md)
 - [IncreaseHealth](IncreaseHealth.md)
 - [FlashHealth](FlashHealth.md)
 - [PickEvidence](PickEvidence.md)
+- [GameOver](GameOver.md)

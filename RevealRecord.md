@@ -1,21 +1,25 @@
 [Back to overview](index.md)
 
 ---
-# RevealRecord
+# RevealRecord (RR)
 ---
-- **Name:** RevealRecord
-- **Description:** Reveals a piece of evidence from the court record.
-- **Parameters:**
-  - **Evidence name:**  
-    The name of the evidence you wish to reveal.
+### Description
+Reveals a piece of evidence in the court record.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Name|String|The name of the evidence.|✓|-|
+
+### Examples:
+#### Example #1: Reveal the autopsy record.
 ```
-1:  RevealRecord:["Autopsy Report"];
+1: RevealRecord:["Autopsy Report"];
 ```
 
-- Remarks
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

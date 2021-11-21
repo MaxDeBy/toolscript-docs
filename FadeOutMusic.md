@@ -1,24 +1,31 @@
 [Back to overview](index.md)
 
 ---
-# FadeOutMusic
+# FadeOutMusic (FoutM)
 ---
-- **Name:** FadeOutMusic (FoutM)
-- **Description:** Fades out the currently playing music.
-- **Parameters:**
-  - **Delay:**  
-     The amount of miliseconds it takes to fade out the scene.
+### Description
+Fades out the currently playing music.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Duration|Number|The amount of miliseconds it takes to fade out the music.|✓|1000|
+
+### Examples:
+#### Example #1: Fading out the foreground over the span of 3 seconds.
 ```
-1:  FadeOutMusic:[1000];
-2:  FoutM:[-];
+1:  FadeOutMusic:[3000];
 ```
 
-- Remarks:
-> 
-If you pass an empty parameter as delay, it will default to one second (1000 miliseconds).  
-After the music has faded out, it has not stopped. It is still "playing", just not audibly.
+#### Example #2: Fading out the foreground over the span of 1 second.
+```
+1:  FoutM:[-];
+```
+
+### Remarks:
+If you pass an empty parameter as `Duration`, it will default to one second (1000 miliseconds).  
+The minimum is 10 miliseconds. If you use a value lower than 10, it will be considered as 10. The only exception is 0 miliseconds, which are treated as instantly.
 
 ---
 [Back to overview](index.md)

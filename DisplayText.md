@@ -1,68 +1,70 @@
 [Back to overview](index.md)
 
 ---
-# DisplayText
+# DisplayText (DT)
 ---
-- **Name:** DisplayText (DT)
-- **Description:** This instruction displays the actual text in a textbox. It also has a lot of parameters to change its behaviour.
-- **Parameters:**
-  - **Character name:**  
-    The text that should be written in the name box. Like the character's name or something like "???". If you pass an empty argument (by using a "-", without the quotation marks), the namebox will not be displayed.
-  - **Speech:**  
-    The actual text that should be displayed. 
-  - **Do not talk:**  
-    A boolean value that indicates whether the character should move their mouth while talking or not. True meaning the mouth will **not** move.
-  - **Is typewriter:**  
-    A boolean value that indicates whether a typewriter sound should be played, rather than the character blips. True meaning the typewriter sound will be moved.
-  - **Keep:**  
-    A boolean value that indicates whether the text from the last textbox should be included in this textbox. For example if you want to change the emote during a speech.
-  - **Silent:**  
-    A boolean value that indicates whether no blips should be played during this speech. True meaning there will be no sounds. This has higher priority than the "Is typewriter" parameter.
-  - **Character position (optional):**  
-    The position of the character that is supposed to talk.
- 
-- Examples:
+### Description
+Displays a dialogue box and a text inside it, displayed letter by letter (by default).
+
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Character name|String|The text that indicates the speaker. Passing a null character (-) causes the name box to remain hidden.|✓|-|
+|Speech|String|The actual dialogue.|✓|-|
+|Do not talk|Boolean|If set to true, the character will not switch to the talking animation.|✗|false|
+|Is Typewriter|Boolean|If set to true, a typewriter sound blip will be used and the text speed decreases.|✗|false|
+|Keep|Boolean|If set to true, the text already existing in the dialogue box will not be erased.|✗|false|
+|Silent|Boolean|If set to true, no blips will be played. Useful if voice acting is used.|✗|false|
+|Position|String|The name of the position used in [LoadCharacter](LoadCharacter.md).|✗|"Center"|
+
+### Examples:
+#### Example #1: Trucy expresses the awkwardness of the situation.
 ```
 1:  DisplayText:["Trucy"|"Well...this is awkward."|false|false|false|false];
-2:  DisplayText:[-|"--- What I saw ---"|true|false|false|true];
-3:  DisplayText:[-|"#GreenDoom is to lazy for a third example."|true|true|false|false];
-4:  DisplayText:[-|"#GreenDoom also cannot spell properly."|true|true|false|false|"Right"];
-5:  DT:["Apollo"|"#Blue(What?#[130] My bracelet is reacting.)"|true|false|false|false];
 ```
 
-- Remarks:
-> 
-If the `Do not talk` parameter is set to true, the `Character name` parameter is used to determine what blips should be played. This is useful for first-person dialog.  
->
-You cannot use the pipe (\|) or double quotes (") character in your speech.  
-> 
+#### Example #2: A nameless dialogue box to, perhaps, display an objective fact. The character on screen, if any, is not talking.
+```
+1:  DisplayText:[-|"#GreenSpelling is not my strong suite."|true];
+```
+
+#### Example #3: Apollo reacts to his bracelet, with a small pause after 'What?'.
+```
+1:  DT:["Apollo"|"#Blue(What?#[130] My bracelet is reacting.)"|true];
+```
+
+### Remarks:
+**You cannot use the pipe (\|) or double quotes (") character in your speech.**
+
+There are multiple ways to specify a blip for a character. Here's how AACT determines what blip should actually be played:
+1. If `Silent` is true, no blip will play at all.
+2. If `Is Typewriter` is true, the typewriter blip will be used.
+3. If `Do not talk` is set to true, the name of the character in the name box will be considered.
+4. If the namebox is empty, the character doesn't exist, or `Do not talk` is set to false, the `Position` parameter determines the character that is actually speaking.
+5.  If multiple characters are speaking, the blip will be set to the default female if all characters are female. Otherwise it will be set to male.
+6. If only a single character is selected (if on the screen or not), and it has a custom blip for the current emote, that custom blip will be used.
+7. If there is no custom blip for the current emote, the custom blip of the character itself will be used.
+8. If no custom blip exists, the character's gender will determine whether the default male blip or the default female blip will be used.
+
 There are 9 text codes you can use inside a speech:  
-> • **#Green:** Following text will be displayed green.  
-> • **#Red:** Following text will be displayed red.  
-> • **#Blue:** Following text will be displayed blue.  
-> • **#White:** Following text will be displayed in white.  
-> • **#Yellow:** Following text will be displayed in yellow.  
-> • **#Purple:** Following text will be displayed in purple.  
-> • **#[TIME]:** Replace TIME with a number (no decimal places). The engine will wait that amount in miliseconds before continuing.  
-> • **#{SPEED}:** Sets the speed mode of the text. The value determines directly how long the delay between blips will be in miliseconds.  
-> • **#(VARIABLE):** Inserts the value of the specified variable at this position. If the variable doesn't exist, an empty string will be inserted.  
-> 
-> In addition, there are three escape codes which will be replaced with a certain character:  
-> • **\NL:** New Line/Line break  
-> • **\Q:** Double quotes (")  
-> • **\P:** Pipe (\|)    
-> 
-> And last but not least the special escape code **\W:**  
-> • The textcode \W can be used to change from `letter` mode, to `word` mode, meaning a message will be then displayed word by word as opposed to letter by letter.  
-> 
-> The codes are case-sensitive which means if you type them in lowercase they will not work.  
-> 
-> The font in the textbox can be adjusted via themes.  
-> 
-> There are 3 character positions: `Right`, `Left` and `Center`.  
-> Although, they can be combined. Valid position combinations are: `RightLeft`, `RightCenter`, `LeftCenter` and `All`.
-> 
-> This counts for all instructions that use character positions. When omitted or invalid, the default value is `Center`.
+- **#Green:** Following text will be displayed green.  
+- **#Red:** Following text will be displayed red.  
+- **#Blue:** Following text will be displayed blue.  
+- **#White:** Following text will be displayed in white.  
+- **#Yellow:** Following text will be displayed in yellow.  
+- **#Purple:** Following text will be displayed in purple.  
+- **#[TIME]:** Replace TIME with a number (no decimal places). The engine will wait that amount in miliseconds before continuing.  
+- **#{SPEED}:** Sets the speed mode of the text. The value determines directly how long the delay between blips will be in miliseconds.  
+- **#(VARIABLE):** Inserts the value of the specified variable at this position. If the variable doesn't exist, an empty string will be inserted.
+
+In addition, there are 4 escape codes:
+- **\NL:** Inserts a New Line/Line Break
+- **\Q:** Inserts double quotes (")
+- **\P:** Inserts a pipe (\|)
+- **\W:** Can be used to change from **letter** mode, to **word** mode, meaning a message will be then displayed word by word as opposed to letter by letter. This will remain until the next DisplayText with `Keep` set to false.
+
+> The codes are case-sensitive which means if you type them in lowercase they will not work. 
 
 ---
 [Back to overview](index.md)

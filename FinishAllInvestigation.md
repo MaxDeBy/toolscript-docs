@@ -3,18 +3,20 @@
 ---
 # FinishAllInvestigation
 ---
-- **Name:** FinishAllInvestigation
-- **Description:** Sets all investigations to finished.
-- **Parameters:**  
-    None
+### Description
+Sets all investigations to finished.
 
-- Examples:
+### Parameters
+This instruction has no parameters.
+
+### Examples:
+#### Example #1: Finishing all currently running investigations.
 ```
 1:  FinishAllInvestigation;     
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

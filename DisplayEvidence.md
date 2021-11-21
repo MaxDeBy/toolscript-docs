@@ -1,24 +1,31 @@
 [Back to overview](index.md)
 
 ---
-# DisplayEvidence
+# DisplayEvidence (DE)
 ---
-- **Name:** DisplayEvidence (DE)
-- **Description:** This instruction displays an image of a piece of evidence in the top left corner.
-- **Parameters:**
-  - **Evidence name:**  
-    The name of the evidence that should be displayed.
-  - **Evidence mode:**  
-    The type of evidence that should be displayed (1 = Evidence, 2 = Profiles).
+### Description
+Displays the thumbnail of a piece of evidence or profile in the top left corner.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Name|String|The name of the evidence or profile.|✓|-|
+|Mode|Number|1 = Evidence, 2 = Profile|✗|1|
+
+### Examples:
+#### Example #1: Displaying the Autopsy Report.
 ```
-1:  DisplayEvidence:["Autopsy report"|1];
-2:  DE:["Knife"|2];
+1:  DisplayEvidence:["Autopsy Report"];
 ```
 
-- Remarks:
-> None
+#### Example #2: Displaying Trucy's profile.
+```
+1:  DisplayEvidence:["Trucy"|2];
+```
+
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

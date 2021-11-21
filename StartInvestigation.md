@@ -3,19 +3,23 @@
 ---
 # StartInvestigation
 ---
-- **Name:** StartInvestigation
-- **Description:** Starts a new investigation and waits until every investigation is finished.
-- **Parameters:**
-  - **Investigation ID:**  
-    The ID of the first investigation to play.
+### Description
+Starts a new investigation and waits until every investigation is finished.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|String|The ID of the first investigation.|✓|-|
+
+### Examples:
+#### Example #1: Start an investigation sequence with the initial investigation being 'Agency'.
 ```
-1:  StartInvestigation:[0];
+1:  StartInvestigation:["Agency"];
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

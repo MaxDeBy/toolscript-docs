@@ -1,22 +1,29 @@
 [Back to overview](index.md)
 
 ---
-# FinishInvestigation
+# FinishInvestigation (FinINV)
 ---
-- **Name:** FinishInvestigation (FinINV)
-- **Description:** Finishes an investigation
-- **Parameters:**
-  - **Investigation ID:**  
-    The ID of the investigation that should be finished.
- 
-- Examples:
+### Description
+Finishes an investigation.
+
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|String|The ID of the investigation that should be finished.|✓|-|
+
+### Examples:
+#### Example #1: Finishing the investigation 'Backyard'.
 ```
-1:  FinishInvestigation:["FinalInvestigation"];
-2:  FinINV:[1];
+1:  FinishInvestigation:["Backyard"];
+```
+#### Example #2: Finishing the investigation '5'.
+```
+2:  FinINV:[5];
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

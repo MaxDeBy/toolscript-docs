@@ -1,21 +1,22 @@
 [Back to overview](index.md)
 
 ---
-# FinishMoodMatrix
+# FinishMoodMatrix (FinMM)
 ---
-- **Name:** FinishMoodMatrix (FinMM)
-- **Description:** Ends a Mood Matrix manually.
-- **Parameters:**  
-    None
+### Description
+Ends a Mood Matrix sequence manually.
 
-- Examples:
+### Parameters
+This instruction has no parameters.
+
+### Examples:
+#### Example #1: Ending the current Mood Matrix sequence.
 ```
 1:  EndMoodMatrix;
-2:  EndMM;
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

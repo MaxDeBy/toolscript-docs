@@ -1,24 +1,41 @@
 [Back to overview](index.md)
 
 ---
-# ButtonChoice
+# ButtonChoice (BC)
 ---
-- **Name:** ButtonChoice (BC)
-- **Description:** Displays up to four buttons on the bottom screen and waits until the player has clicked one.
-- **Parameters:**
-  - **Choice(s)**:  
-    You can pass up to 4 choices as strings which will determine the text on the buttons. If you want less than four choices, you can use the null character (-) to leave out a choice.
-  - **Frame ID(s)**:  
-    For each choice, you also have to pass an ID of a frame. That frame will be executed when the player clicks on that option.
+### Description
+Displays up to four buttons on the bottom screen and waits until the player has clicked one.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Choice 1|String|The label of the first choice button.|✓|-|
+|Choice 2|String|The label of the first choice button.|✗|-|
+|Choice 3|String|The label of the first choice button.|✗|-|
+|Choice 4|String|The label of the first choice button.|✗|-|
+|Frame 1|String|The ID of the Frame for choice 1.|✓|-|
+|Frame 2|String|The ID of the Frame for choice 2.|✗|-|
+|Frame 3|String|The ID of the Frame for choice 3.|✗|-|
+|Frame 4|String|The ID of the Frame for choice 4.|✗|-|
+
+### Examples:
+#### Example #1: Giving the player 4 choices, for suggesting a murder weapon.
 ```
-1:  ButtonChoice:["Choice 1"|"Choice 2"|"Choice 3"|"Choice 4"|1|2|3|4];
-2:  BC:["Choice 1"|"Choice 2"|-|-|1|2];
-3:  BC:["Choice 1"|"Choice 2"|-|"Choice 4"|1|2|-|4];
+1:  ...
+2:  ButtonChoice:["Knife"|"Gun"|"Rope"|"Bat"|1|2|3|4];
+3:  ...
 ```
-- Remarks:
-> None
+
+#### Example #2: Giving the player the choice to accusse the witness or not.
+```
+1:  ...
+2:  BC:["Accuse the witness"|"Don't accuse the witness"|-|-|10|20|-|-];
+3:  ...
+```
+
+### Remarks:
+Each "Choice" parameter must be paired with a "Frame ID" parameter. If `Frame ID 3` is left out, even though `Choice 3` has a value, the third choice will be ignored.
 
 ---
 [Back to overview](index.md)

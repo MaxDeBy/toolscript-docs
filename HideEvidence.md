@@ -1,20 +1,22 @@
 [Back to overview](index.md)
 
 ---
-# HideEvidence
+# HideEvidence (HE)
 ---
-- **Name:** HideEvidence (HE)
-- **Description:** This instruction hides the evidence thumbnail in the top left corner.
-- **Parameters:** None
+### Description
+This instruction hides the evidence thumbnail in the top left corner.
 
-- Examples:
+### Parameters
+This instruction has no parameters.
+
+### Examples:
+#### Example #1: Hiding the currently displayed evidence thumbnail.
 ```
 1:  HideEvidence;
-2:  HE;
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

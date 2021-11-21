@@ -1,22 +1,25 @@
 [Back to overview](index.md)
 
 ---
-# StopMusic
+# StopMusic (SM)
 ---
-- **Name:** StopMusic (SM)
-- **Description:** This instruction stops a track of music.
-- **Parameters:**
-  - **Delay:**  
-    The amount of miliseconds the engine should wait before stopping the music. For example to have the music be cut by a sound effect.
+### Description
+Stops the currently playing music track.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Delay|Number|How long the engine should wait before stopping the music.|✓|0|
+
+### Examples:
+#### Example #1: Stop the music in 600ms.
 ```
 1:  StopMusic:[600];
-2:  SM:[0];
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

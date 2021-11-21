@@ -3,21 +3,24 @@
 ---
 # RevealMove
 ---
-- **Name:** RevealMove
-- **Description:** Reveals a move option in an investigation.
-- **Parameters**
-  - **Investigation ID:**  
-    The ID of the investigation containing the move option.
-  - **Index of the move option:**  
-    The 1-based index of the move option.
+### Description
+Reveals a move option in an investigation.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|String|The ID of the investigation.|✓|-|
+|Index|Number|The 1-based index of the move option.|✓|-|
+
+### Examples:
+#### Example #1: Reveals the first move option in the investigation 'Agency'.
 ```
-1:  RevealMove:[0|1];
+1:  RevealMove:["Agency"|1];
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

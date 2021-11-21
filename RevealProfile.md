@@ -1,21 +1,25 @@
 [Back to overview](index.md)
 
 ---
-# RevealProfile
+# RevealProfile (RP)
 ---
-- **Name:** RevealProfile
-- **Description:** Reveals a profile from the court record.
-- **Parameters:**
-  - **Profile name:**  
-    The name of the profile you wish to reveal.
+### Description
+Reveals a profile in the court record.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Name|String|The name of the profile.|✓|-|
+
+### Examples:
+#### Example #1: Reveal Mia Fey's profile.
 ```
 1: RevealProfile:["Mia Fey"];
 ```
 
-- Remarks
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

@@ -3,21 +3,23 @@
 ---
 # HideTopic
 ---
-- **Name:** HideTopic
-- **Description:** Hides a talking topic in an investigation.
-- **Parameters**
-  - **Investigation ID:**  
-    The ID of the investigation containing the talking topic.
-  - **Index of the topic:**  
-    The 1-based index of the topic.
+### Description
+Hides a talking topic in an investigation.
 
-- Examples:
-```
-1:  HideTopic:[0|1];
-```
+### Parameters
 
-- Remarks:
-> None
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|Number|The ID of the investigation containing the talking topic.|✓|-|
+|Index|Number|The 1-based index of the topic.|✓|-|
+
+### Examples:
+#### Example #1: Hiding topic 1 of Investigation 'Crime Scene'
+```
+1:  HideTopic:["Crime Scene"|1];
+```
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

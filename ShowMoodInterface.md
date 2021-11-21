@@ -1,21 +1,22 @@
 [Back to overview](index.md)
 
 ---
-# ShowMoodInterface
+# ShowMoodInterface (SMI)
 ---
-- **Name:** ShowMoodInterface (SMI)
-- **Description:** Shows the GUI of the Mood Matrix sequence.
-- **Parameters:**  
-    None
+### Description
+Shows the GUI of the Mood Matrix sequence.
 
-- Examples:
+### Parameters
+This instruction has no parameters.
+
+### Examples:
+#### Example #1: Display the GUI of the Mood Matrix sequence.
 ```
 1:  ShowMoodInterface;
-2:  SMI;
 ```
 
-- Remarks:
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

@@ -1,22 +1,25 @@
 [Back to overview](index.md)
 
 ---
-# FlashHealth
+# FlashHealth (FH)
 ---
-- **Name:** FlashHealth (FH)
-- **Description:** Makes a portion of the healthbar flash in a yellow color.
-- **Paramters:**
-  - **Amount:**
-    Just like the damage or heal instructions, this one also requires a number as a value. This will determine how much of the healthbar will flash.
+### Description
+Makes a portion of the healthbar flash in a yellow (default) color.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Amount|Number|How much of the healthbar should flash.|✓|-|
+
+### Examples:
+#### Example #1: Flash 20 units of the healthbar.
 ```
-1:  FlashHealth:[30];
-2:  FH:[50];
+1:  FlashHealth:[20];
 ```
 
-- Remarks:
-> The flash animation automatically stops when healing, damaging, displaying, or hiding the health bar.
+### Remarks:
+The flash animation automatically stops when healing, damaging, displaying, or hiding the health bar.
 
 ---
 [Back to overview](index.md)

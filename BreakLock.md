@@ -3,18 +3,22 @@
 ---
 # BreakLock
 ---
-- **Name:** BreakLock
-- **Description:** Breaks the next Psyche Lock.
-- **Parameters:**  
-    None
+### Description
+Breaks the next Psyche Lock.
 
-- Examples:
+### Parameters
+This instruction has no parameters.
+
+### Examples:
+#### Example #1: Breaking a Psyche Lock.
 ```
-1:  BreakLock;
+1:  ...
+2:  BreakLock;
+3:  ...
 ```
 
-- Remarks:
-> To make it more comfortable, you don't have to specify what lock to break. Using this command will automatically break the next lock. In the event that only one lock is left, it will break and the chains will be removed.
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

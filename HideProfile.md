@@ -1,21 +1,24 @@
 [Back to overview](index.md)
 
 ---
-# HideProfile
+# HideProfile (HP)
 ---
-- **Name:** HideProfile
-- **Description:** Hides a profile from the court record.
-- **Parameters:**
-  - **Profile name:**  
-    The name of the profile you wish to hide.
+### Description
+Hides a profile from the court record.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Name|String|The name of the profile you wish to hide.|✓|-|
+
+### Examples:
+#### Example #1: Hiding the profile of Mia Fey.
 ```
 1:  HideProfile:["Mia Fey"];
 ```
-
-- Remarks
-> None
+### Remarks:
+-
 
 ---
 [Back to overview](index.md)

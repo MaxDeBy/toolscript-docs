@@ -1,22 +1,25 @@
 [Back to overview](index.md)
 
 ---
-# PlayInvestigation
+# PlayInvestigation (INV)
 ---
-- **Name:** PlayInvestigation (INV)
-- **Description:** Initiates an investigation sequence.
-- **Parameters:**
-  - **Investigation ID:**  
-    The ID of the investigation you want to start.
- 
-- Examples:
+### Description
+Initiates an investigation sequence.
+
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|ID|String|The ID of the investigation.|✓|-|
+
+### Examples:
+#### Example #1: Play the investigation 'FinalInvestigation'.
 ```
 1:  PlayInvestigation:["FinalInvestigation"];
-2:  INV:[1];
 ```
- 
-- Remarks:
-> Read the "best practices" for investigations in the [Investigations](InvestigationC.md) chapter.
+
+### Remarks:
+Read the "best practices" for investigations in the [Investigations](InvestigationC.md) chapter.
 
 ---
 [Back to overview](index.md)

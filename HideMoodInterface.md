@@ -1,21 +1,22 @@
 [Back to overview](index.md)
 
 ---
-# HideMoodInterface
+# HideMoodInterface (HMI)
 ---
-- **Name:** HideMoodInterface (HMI)
-- **Description:** Hides the GUI of the Mood Matrix sequence, but does not end it.
-- **Parameters:**  
-    None
+### Description
+Hides the GUI of the Mood Matrix sequence, but does not end it.
 
-- Examples:
+### Parameters
+This instruction has no parameters.
+
+### Examples:
+#### Example #1: Hiding the GUI of the Mood Matrix sequence.
 ```
 1:  HideMoodInterface;
-2:  HMI;
 ```
 
-- Remarks:
-> None
+### Remarks:
+Hiding the interface does **not** end the Mood Matrix sequence.
 
 ---
 [Back to overview](index.md)

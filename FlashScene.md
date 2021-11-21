@@ -1,22 +1,26 @@
 [Back to overview](index.md)
 
 ---
-# FlashScene
+# FlashScene (Flash)
 ---
-- **Name:** FlashScene (Flash)
-- **Description:** Flashes the screen white.
-- **Parameters:**
-  - **Duration:**  
-    Specifies how long the flash takes. Default is 200ms.
+### Description
+Flashes the screen white.
 
-- Examples:
+### Parameters
+
+|Name|Type|Description|Required|Default Value|
+|:---:|:---:|:---:|:---:|:---:|
+|Duration|Number|Specifies how long the flash should take in miliseconds.|✓|200|
+
+### Examples:
+#### Example #1: Flashes the screen for a total of 500ms.
 ```
-1:  FlashScene:[200];
-2:  Flash:[100];
+1:  Flash:[500];
 ```
 
-- Remarks:
-> None
+### Remarks:
+The duration determines the total time for the flash. This means that both fading in and out each take half the specified time of `Duration`.
+Example: `Duration` is set to 200ms. It will then take 100ms to fade the scene to white and then another 100ms to fade out the flash again.
 
 ---
 [Back to overview](index.md)

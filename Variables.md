@@ -16,7 +16,7 @@ A string has the second highest priority.
 
 
 * **Number** 
->Numbers are integers when used in for loops, and floating point values at all other times. This means that numbers have the range of a double value with decimals allowed when not used in a for loop, and have the range of a 32-bit integer with decimals not allowed when in a for loop.  
+>Numbers are whole numbers. This means that numbers have the range of a 32-bit integer with decimals not allowed when in a for loop.  
 A number has the third highest priority.
 
 * **Boolean**
