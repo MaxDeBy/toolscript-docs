@@ -10,6 +10,7 @@ Moves a character to a different position.
 
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
+|Position|String|The name of the position that should be moved.|✓|-|
 |Position X|Number|The destination position of the character on the X axis of the background image. The value describes the leftmost pixel which should be visible.|✓|-|
 |Position Y|Number|The destination position of the character on the Y axis of the background image. The value describes the topmost pixel which should be visible.|✗|0|
 |Duration|Number|The time in miliseconds the moving should take. 0 being instantly.|✗|0|
