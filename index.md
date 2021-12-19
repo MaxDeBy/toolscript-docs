@@ -46,6 +46,7 @@ Bellow you will find a list of all instructions but it's recommended that you re
 ### Camera
 - [PanCamera](PanCamera.md)
 - [Shake](Shake.md)
+- [MoveCharacter](MoveCharacter.md)
   
 ### Gameplay
 - Cross Examination ([Play](PlayCrossExam.md)) ([Container](CrossExamC.md))
