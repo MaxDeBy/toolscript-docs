@@ -14,10 +14,10 @@ Displays up to four buttons on the bottom screen and waits until the player has 
 |Choice 2|String|The label of the first choice button.|✗|-|
 |Choice 3|String|The label of the first choice button.|✗|-|
 |Choice 4|String|The label of the first choice button.|✗|-|
-|Frame 1|String|The ID of the Frame for choice 1.|✓|-|
-|Frame 2|String|The ID of the Frame for choice 2.|✗|-|
-|Frame 3|String|The ID of the Frame for choice 3.|✗|-|
-|Frame 4|String|The ID of the Frame for choice 4.|✗|-|
+|Frame ID 1|String|The ID of the Frame for choice 1.|✓|-|
+|Frame ID 2|String|The ID of the Frame for choice 2.|✗|-|
+|Frame ID 3|String|The ID of the Frame for choice 3.|✗|-|
+|Frame ID 4|String|The ID of the Frame for choice 4.|✗|-|
 
 ### Examples:
 #### Example #1: Giving the player 4 choices, for suggesting a murder weapon.
