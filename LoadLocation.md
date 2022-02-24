@@ -11,11 +11,18 @@ Loads a location or super location, replacing the previous location.
 |Name|Type|Description|Required|Default Value|
 |:---:|:---:|:---:|:---:|:---:|
 |Name|String|The name of the location.|✓|-|
+|PosX|Number|The start position of the camera on the X axis.|✗|0|
+|PosY|Number|The start position of the camera on the Y axis.|✗|0|
 
 ### Examples:
 #### Example #1: Loading the 'Agency' background.
 ```
 1:  LoadLocation:["Agency"];
+```
+
+#### Example #1: Loading the 'Agency' background and instantly snap the camera to a (X:920,Y:384).
+```
+1:  LoadLocation:["Agency"|920|384];
 ```
 
 ### Remarks:
