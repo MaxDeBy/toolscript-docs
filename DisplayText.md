@@ -31,8 +31,10 @@ Displays a dialogue box and a text inside it, displayed letter by letter (by def
 
 #### Example #3: Apollo reacts to his bracelet, with a small pause after 'What?'.
 ```
-1:  DT:["Apollo"|"#Blue(What?#[130] My bracelet is reacting.)"|true];
+1:  DT:["Apollo"|"#Blue(What?#[130]#Blue My bracelet is reacting.)"|true];
 ```
+
+> The color code `#Blue` has to be repeated after the waiting. Each text code splits a text into a new segment and each segment is automatically set to a white font.
 
 ### Remarks:
 **You cannot use the pipe (\|) or double quotes (") character in your speech.**
