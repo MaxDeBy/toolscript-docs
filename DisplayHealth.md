@@ -15,16 +15,12 @@ Displays the health bar in the top right corner.
 ### Examples:
 #### Example #1: Display the health bar with a sliding animation.
 ```
-1:  ...
-2:  DisplayHealth:[true];
-3:  ...
+1:  DisplayHealth:[true];
 ```
 
-#### Example #1: Display the healt hbar instantly.
+#### Example #2: Display the healt hbar instantly.
 ```
-1:  ...
-2:  DH:[false];
-3:  ...
+1:  DH:[false];
 ```
 
 ### Remarks:

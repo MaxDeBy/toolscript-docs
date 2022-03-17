@@ -46,5 +46,7 @@ Setting a character is advisable but not required. Changing the emote or charact
 
 *: Not specifying the `PlayPre` and/or `WaitForPre` parameters prompts AACT to use the default values specified in the emote editor of the Asset Maker.
 
+This instruction triggers [HideTextBox](HideTextBox.md).
+
 ---
 [Back to overview](index.md)

@@ -58,7 +58,8 @@ There are 9 text codes you can use inside a speech:
 - **#Purple:** Following text will be displayed in purple.  
 - **#[TIME]:** Replace TIME with a number (no decimal places). The engine will wait that amount in miliseconds before continuing.  
 - **#{SPEED}:** Sets the speed mode of the text. The value determines directly how long the delay between blips will be in miliseconds.  
-- **#(VARIABLE):** Inserts the value of the specified variable at this position. If the variable doesn't exist, an empty string will be inserted.
+- **#(VARIABLE):** Inserts the value of the specified variable at this position. If the variable doesn't exist, the text "Undefined" will be printed.
+- **#\<SPACES\>:** Inserts the specified amount of spaces. A good compensation for the fact there is no way to automatically center text with AACT.
 
 In addition, there are 4 escape codes:
 - **\NL:** Inserts a New Line/Line Break

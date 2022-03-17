@@ -42,5 +42,7 @@ If the specified emote doesn't exist for the character, this instruction does no
 
 *: Not specifying the `PlayPre` and/or `WaitForPre` parameters prompts AACT to use the default values specified in the emote editor of the Asset Maker.
 
+This instruction triggers [HideTextBox](HideTextBox.md).
+
 ---
 [Back to overview](index.md)

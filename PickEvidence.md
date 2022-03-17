@@ -42,5 +42,7 @@ You can omit all but the 2nd parameter (as shown in example 3 and 4). If you do 
 - **Sys_SelectedRecordDisplay**: The display name of the selected record.
 - **Sys_SelectedRecordIsEvidence**: Will be `true` if the selected record is evidence, `false` if it is a profile.
 
+This version can also be used in Cross Examinations. Using the PickEvidence instruction with only one parameter in a Cross Examination will always cause the SEV instruction to be executed, if it exists. If not, the next statement will be executed.
+
 ---
 [Back to overview](index.md)
