@@ -12,7 +12,8 @@ This instruction plays a sound effect.
 |:---:|:---:|:---:|:---:|:---:|
 |Name|String|The name of the sound effect.|✓|-|
 |Delay|Number|Waits this amount of miliseconds before actually playing the sound.|✗|0|
-|Loop|Boolean|Determines whether the sound should loop or not.|✗|false|
+|Loop|Boolean|Whether the sound should loop or not.|✗|false|
+|Loop Delay|Number|The delay in miliseconds after each loop before the sound plays again. Does nothing if Loop is false.|✗|false|
 
 ### Examples:
 #### Example #1: Plays the sound 'GavelSlam' in 300ms.
@@ -30,8 +31,13 @@ This instruction plays a sound effect.
 1:  PS:["Chalkboard"];
 ```
 
+#### Example #2: Plays the sound 'Clap' after 200 miliseconds and loop until stopped manually, waiting one second after each loop before playing again.
+```
+1:  PlaySound:["Clap"|200|true|1000];
+```
+
 ### Remarks:
-If `Delay` is set to anything below 10, it will be interpreted as 10. The only exception is the value 0.
+If `Delay` or `LoopDelay` is set to anything below 10, it will be interpreted as 10. The only exception is the value 0.
 
 ---
 [Back to overview](index.md)
