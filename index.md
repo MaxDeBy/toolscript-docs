@@ -74,6 +74,7 @@ Bellow you will find a list of all instructions but it's recommended that you re
 - [PsycheDisplayHealth](PsycheDisplayHealth.md)
 - [DisplayHealth](DisplayHealth.md)
 - [DisplayPopup](DisplayPopup.md)
+- [ClearPopup](ClearPopup.md)
 - [DisplayPopupWait](DisplayPopupWait.md)
 - [DisplayText](DisplayText.md)
   
