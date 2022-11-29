@@ -4,7 +4,7 @@
 # HideHealth (HH)
 ---
 ### Description
-This instruction hides the health bar in the top right corner.
+This instruction hides the health bar.
 
 ### Parameters
 
